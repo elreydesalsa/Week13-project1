@@ -4,7 +4,7 @@ UNCC Week 13
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram](https://github.com/elreydesalsa/Week13-project1/blob/main/Diagrams/Screen%20Shot%202021-06-17%20at%2011.44.22%20AM.png)
+[Network Diagram](https://github.com/elreydesalsa/Week13-project1/blob/main/Diagrams/Copy%20of%20EduardoDiaz.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
 
