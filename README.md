@@ -95,7 +95,7 @@ SSH into the control node and follow the steps below:
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ 
      File to update Ansible is filebeat.yml this is a Configuration file. We need to configure .yml file to have designated Ip address from the Private Ip Address of the Elk Server.
 - _Which URL do you navigate to in order to check that the ELK server is running? 
-  http://[10.1.0.4]:5601/app/kibana
+  http://[your.VM.IP]:5601/app/kibana
 *specific commands the user will need to run to download the playbook, update the files, etc._
 ssh RedAdmin@JumpBox(PrivateIP)
 sudo docker container list -a (locate your ansible container)
