@@ -96,7 +96,8 @@ SSH into the control node and follow the steps below:
      File to update Ansible is filebeat.yml this is a Configuration file. We need to configure .yml file to have designated Ip address from the Private Ip Address of the Elk Server.
 - _Which URL do you navigate to in order to check that the ELK server is running? 
   http://[your.VM.IP]:5601/app/kibana
-*specific commands the user will need to run to download the playbook, update the files, etc._
+
+specific commands the user will need to run to download the playbook, update the files, etc._
 ssh RedAdmin@JumpBox(PrivateIP)
 sudo docker container list -a (locate your ansible container)
 sudo docker start container (name of the container)
